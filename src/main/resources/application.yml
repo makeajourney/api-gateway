@@ -1,0 +1,11 @@
+dis:
+  url: http://localhost:8081
+
+logging:
+  level:
+    reactor:
+      netty: INFO
+    org:
+      springframework:
+        cloud:
+          gateway: TRACE
